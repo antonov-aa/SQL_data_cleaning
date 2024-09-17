@@ -3,7 +3,7 @@
 # Data 
 US President Barack Obama's administration has published records of White House visitors during his time in office.
 https://obamawhitehouse.archives.gov/briefing-room/disclosures/visitor-records
-Here I will clean and prepare the dataset for solely 2016. It contains 970 504 records in 28 columns.
+Here I will clean and prepare the dataset for solely 2016 (January - October). It contains 970 504 records in 28 columns.
 Columns describtion is provided here: https://obamawhitehouse.archives.gov/files/disclosures/visitors/WhiteHouse-WAVES-Key-1209.txt
 
 To summarize - this dataset contains information on White house visitors, visitees, time of visit, visit facility along with some other information throughout 2016.
