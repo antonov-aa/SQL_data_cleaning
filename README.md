@@ -24,25 +24,15 @@ All the operations were performed using PostgreSQL language in DBeaver Community
 
 # Results
 
-Original data is highly inconsistent, contains a lot of missing values and entry logics is unclear.
+ - Original data is highly inconsistent, contains a lot of missing values and entry logics is unclear.
+ - Total entries: 970 504 -> 968 954 due to removal of duplicated and faulty rows.
+ - Total number of rows: 28 -> due to removal of row with single value and empty row.
+ - All the missing value identified and replaced with NULL.
+ - Logics behind data input is partially restored and explained.
+ - All data columns are brought to correct type.
+ - Data variability due to inconsistent data inputting is decreased without any losses:
 
-Total entries: 970 504 -> 968 954 due to removal of duplicated and faulty rows.
-
-Total number of rows: 28 -> due to removal of row with single value and empty row.
-
-All the missing value identified and replaced with NULL.
-
-Logics behind data input is partially restored and explained.
-
-All data columns are brought to correct type.
-
-Data variability due to inconsistent data inputting is decreased without any losses:
-
-   Unique caller names: 1230 -> 1224
-   
-   Unique meeting locations: 2 279 -> 2 046
-   
-   Unique visitees: 6 505 -> 5 885
-   
-   Posts of arrival and departures: 21 -> 20 
-   
+    -- Unique caller names: 1230 -> 1224   
+    -- Unique meeting locations: 2 279 -> 2 046   
+    -- Unique visitees: 6 505 -> 5 885   
+    -- Posts of arrival and departures: 21 -> 20    
