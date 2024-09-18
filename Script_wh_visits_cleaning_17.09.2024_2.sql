@@ -1,4 +1,5 @@
-
+-- The dataset was uploaded as 'wh_visits_raw' table.
+-- Column names were brought lower case and spaces were replaced with underscores before the upload
 ---- 1. DATA INSPECTION ----
 
 --Check the number of rows in the raw dataset
